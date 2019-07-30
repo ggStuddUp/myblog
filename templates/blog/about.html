@@ -1,0 +1,21 @@
+{% extends 'base2.html' %}
+
+{% block main %}
+    <main class="col-md-12">
+        <h1 class="page-title">关于本博客</h1>
+        <article class="post">
+            <div class="entry-content clearfix">
+                <p>本博客是由博主参考 <a href="http://zmrenwu.com/">逐梦人物的博客</a> 里面的一个教程完成的。教程写的十分详细，基本每一步都有清晰的步骤和解释，对小白真的十分友好。虽然过程中还是遇到了许多意外的事情， 比如刚开始使用markdown的时候，我的每个步骤都按照教程来走，但在测试的时候，发现代码块那里总是渲染不好，直接是将代码渲染成代码行了，查找评论也没有发现同样的错误，最后是借助搜索引擎，改成使用markdown2就能渲染成功了（后面也有用到了markdown，但却能正常渲染了，很神奇，可能是当时浏览器解析有点问题）总的来说收获还是很多的，动过自己动手完成一个博客还是很有成就感的，特别是在中途遇到问题的时候自己进行推理并找出bug进行解决，收获多多，对django的理解也能更加的深刻，而不是简单的照抄。最后面跟着教程结束了之后，也结合了一下django的用户注册模块，自己实现了用户登录后才可评论的功能；再后面是自己去学了一下前端的知识，简单修改了一下模板，实现了侧边栏固定的功能。总的来说还是很棒的，万事都是从模仿开始，只要你学会了举一反三，你就能创造自己的东西。</p>
+
+                <div class="height-40px"></div>
+                <h2 class="title text-center">Social</h2>
+                <ul class="social">
+                    <li class="facebook"><a href="#"><span class="ion-social-facebook"></span></a></li>
+                    <li class="twitter"><a href="#"><span class="ion-social-twitter"></span></a></li>
+                    <li class="google-plus"><a href="#"><span class="ion-social-googleplus"></span></a></li>
+                    <li class="tumblr"><a href="#"><span class="ion-social-tumblr"></span></a></li>
+                </ul>
+            </div>
+        </article>
+    </main>
+{% endblock main %}
